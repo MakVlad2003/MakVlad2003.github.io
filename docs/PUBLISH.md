@@ -63,9 +63,10 @@ git push -u origin main
 
 ## Последующие обновления
 
-После правок в локальной папке:
+После правок в локальной папке обновите версии ресурсов, чтобы браузер загрузил новые JavaScript и CSS:
 
 ```sh
+python3 scripts/version-assets.py
 git add .
 git commit -m "Update personal website"
 git push
