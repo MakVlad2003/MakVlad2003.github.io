@@ -98,9 +98,10 @@
     const papers=publications.map((p,i)=>`<article class="publication">${paperVisual(i)}<div class="publication-copy"><div class="publication-meta">${p.source}</div><h3><a class="entry-title-link" href="${p.url}" ${external}>${p.title}</a></h3><p class="authors">${p.authors}</p>${resources([[c.paperLink,p.url],...(p.pdf?[[c.paperPdf,p.pdf]]:[])])}</div></article>`).join('');
     const competitionLabels=lang==='ru'?['Задача','Моя роль','Результат']:['Task','My role','Result'];
     const competitions=items=>items.map(i=>`<article class="competition"><time>${i.year}</time><div><h3>${i.title}</h3><p class="competition-kind">${i.kind}</p><dl>${[i.text,i.role,i.result].map((v,j)=>`<div><dt>${competitionLabels[j]}</dt><dd>${v}</dd></div>`).join('')}</dl>${resources(i.resources)}</div></article>`).join('');
-    main.innerHTML=intro+section('projects',c.projectsTitle,projects,'projects-section')
+    main.innerHTML=intro+section('experience',c.experienceTitle,entries(c.experience,'experience'))
+      +section('projects',c.projectsTitle,projects,'projects-section')
       +section('publications',c.publicationsTitle,papers)
-      +section('talks',c.talksTitle,entries(c.talks,'talk'))+section('experience',c.experienceTitle,entries(c.experience,'experience'))+section('education',c.educationTitle,entries(c.education,'education'))
+      +section('talks',c.talksTitle,entries(c.talks,'talk'))+section('education',c.educationTitle,entries(c.education,'education'))
       +section('hackathons',lang==='ru'?'Хакатоны':'Hackathons',competitions(c.competitions.slice(0,3)))
       +section('cases',lang==='ru'?'Кейс-чемпионаты':'Case competitions',competitions(c.competitions.slice(3)))
       +section('contact',c.contactTitle,socialLinks(true),'contact-section')

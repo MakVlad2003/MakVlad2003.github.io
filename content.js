@@ -12,6 +12,10 @@ window.CV_CONTENT = {
         "Обо мне"
       ],
       [
+        "experience",
+        "Опыт работы"
+      ],
+      [
         "projects",
         "Проекты"
       ],
@@ -22,10 +26,6 @@ window.CV_CONTENT = {
       [
         "talks",
         "Конференции"
-      ],
-      [
-        "experience",
-        "Опыт работы"
       ],
       [
         "education",
@@ -358,6 +358,10 @@ window.CV_CONTENT = {
         "About me"
       ],
       [
+        "experience",
+        "Experience"
+      ],
+      [
         "projects",
         "Projects"
       ],
@@ -368,10 +372,6 @@ window.CV_CONTENT = {
       [
         "talks",
         "Conferences"
-      ],
-      [
-        "experience",
-        "Experience"
       ],
       [
         "education",
