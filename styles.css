@@ -238,13 +238,14 @@ summary:before{content:'';height:5px;width:5px;border-right:1px solid currentCol
 .olympiad .olympiad-result{margin:0;color:var(--accent);font-size:14px;font-weight:600}
 .olympiad .resource-links{margin-top:10px}
 /* An opaque backing closes the rounded header corners while scrolling. */
-.site-header{background:var(--paper);border:0;border-radius:0}
+.site-header{background:var(--paper);border:0;border-radius:0;isolation:isolate}
+.site-header::before{left:50%;right:auto;top:-20px;bottom:-10px;width:100vw;height:auto;transform:translateX(-50%);z-index:-1;background:var(--paper)}
 .header-inner{background:var(--panel);border:1px solid var(--line);border-radius:12px}
 .competition{grid-template-columns:170px minmax(0,1fr);align-items:start;gap:32px;padding-block:20px}
 .competition-context{display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center;align-self:start}
 .competition-context .org-logo{width:144px;height:64px}
-.competition-context time{line-height:1.5}
-.competition>div:last-child{min-width:0;max-width:68ch}
+.competition-context time{line-height:1.5;font-size:12px;font-weight:400;color:var(--muted)}
+.competition>div:last-child{min-width:0;max-width:none}
 .competition .logo-pbs,.competition .logo-bostongene,.competition .logo-spbu,.competition .logo-lomonosov{height:76px}
 [data-theme=dark] .logo-sibur img,[data-theme=dark] .logo-gazprom-neft img{filter:brightness(1.5)}
 [data-theme=dark] .logo-spbu img{filter:brightness(0) invert(1)}

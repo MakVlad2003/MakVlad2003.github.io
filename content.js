@@ -110,7 +110,7 @@ window.CV_CONTENT = {
           "август 2026"
         ],
         "title": "Обучающие данные для антропоморфного робота",
-        "meta": "Sber Robotics · Исследовательский проект",
+        "meta": "Sber Robotics<br>Исследовательский проект",
         "text": "Разработка методологии автоматического формирования обучающих данных для визуально-языковых моделей, генерирующих действия антропоморфного робота.",
         "logo": "sber.png"
       },
@@ -120,7 +120,7 @@ window.CV_CONTENT = {
           "декабрь 2025"
         ],
         "title": "Карты знаний для мобильных манипуляторов",
-        "meta": "Sber Robotics · Исследовательский проект",
+        "meta": "Sber Robotics<br>Исследовательский проект",
         "text": "Разработка интеллектуальных методов построения и обновления карт знаний и их применения для локализации мобильных манипуляторов.",
         "logo": "sber.png"
       }
@@ -218,7 +218,7 @@ window.CV_CONTENT = {
     "competitions": [
       {
         "year": "2025",
-        "title": "СИБУР · «Элемент 119»",
+        "title": "СИБУР — «Элемент 119»",
         "text": "Предсказание липофильности органических молекул.",
         "result": "Команда-участник",
         "resources": [
@@ -248,7 +248,7 @@ window.CV_CONTENT = {
       },
       {
         "year": "2023",
-        "title": "Цифровая кафедра МФТИ · «Газпром нефть»",
+        "title": "Цифровая кафедра МФТИ — «Газпром нефть»",
         "text": "Веб-сервис для автоматического лотирования закупочных заявок.",
         "result": "Команда-участник",
         "role": "Капитан команды · ML-инженер",
@@ -257,7 +257,7 @@ window.CV_CONTENT = {
       },
       {
         "year": "2023",
-        "title": "Phystech Business Solutions · «Яков и Партнёры»",
+        "title": "Phystech Business Solutions — «Яков и Партнёры»",
         "kind": "Кейс-чемпионат",
         "text": "Стратегия трёхкратного увеличения числа ежегодных пациентов check-up за пять лет.",
         "role": "Исследование и аналитика данных",
@@ -272,7 +272,7 @@ window.CV_CONTENT = {
       },
       {
         "year": "2022",
-        "title": "Phystech Business Solutions · KEPT",
+        "title": "Phystech Business Solutions — KEPT",
         "kind": "Кейс-чемпионат",
         "text": "Оптимизация бизнес-функций нефтеперерабатывающего холдинга.",
         "role": "Исследование и аналитика данных",
@@ -287,7 +287,7 @@ window.CV_CONTENT = {
       },
       {
         "year": "2022",
-        "title": "Phystech Business Solutions · Zerion",
+        "title": "Phystech Business Solutions — Zerion",
         "kind": "Кейс-чемпионат",
         "text": "Решения на базе Web 3.0 для безопасных P2P-сервисов.",
         "role": "Исследование и аналитика данных",
@@ -515,7 +515,7 @@ window.CV_CONTENT = {
           "August 2026"
         ],
         "title": "Training data for humanoid robot action models",
-        "meta": "Sber Robotics · Research project",
+        "meta": "Sber Robotics<br>Research project",
         "text": "Development of a methodology for automatically creating training data for vision-language models that generate humanoid robot actions.",
         "logo": "sber.png"
       },
@@ -525,7 +525,7 @@ window.CV_CONTENT = {
           "December 2025"
         ],
         "title": "Knowledge maps for mobile manipulators",
-        "meta": "Sber Robotics · Research project",
+        "meta": "Sber Robotics<br>Research project",
         "text": "Development of methods for constructing and updating knowledge maps and using them for mobile manipulator localisation.",
         "logo": "sber.png"
       }
@@ -623,7 +623,7 @@ window.CV_CONTENT = {
     "competitions": [
       {
         "year": "2025",
-        "title": "SIBUR · Element 119",
+        "title": "SIBUR — Element 119",
         "text": "Prediction of the lipophilicity of organic molecules.",
         "result": "Participating team",
         "resources": [
@@ -653,7 +653,7 @@ window.CV_CONTENT = {
       },
       {
         "year": "2023",
-        "title": "MIPT Digital Department · Gazprom Neft",
+        "title": "MIPT Digital Department — Gazprom Neft",
         "text": "A web service for automatically grouping procurement requests into lots.",
         "result": "Participating team",
         "role": "Team captain · ML engineer",
@@ -662,7 +662,7 @@ window.CV_CONTENT = {
       },
       {
         "year": "2023",
-        "title": "Phystech Business Solutions · Yakov and Partners",
+        "title": "Phystech Business Solutions — Yakov and Partners",
         "kind": "Case competition",
         "text": "A strategy to triple annual check-up patient numbers over five years.",
         "role": "Researcher · Data analyst",
@@ -677,7 +677,7 @@ window.CV_CONTENT = {
       },
       {
         "year": "2022",
-        "title": "Phystech Business Solutions · KEPT",
+        "title": "Phystech Business Solutions — KEPT",
         "kind": "Case competition",
         "text": "Optimisation of business functions in an oil-refining holding company.",
         "role": "Researcher · Data analyst",
@@ -692,7 +692,7 @@ window.CV_CONTENT = {
       },
       {
         "year": "2022",
-        "title": "Phystech Business Solutions · Zerion",
+        "title": "Phystech Business Solutions — Zerion",
         "kind": "Case competition",
         "text": "Web 3.0 solutions for secure P2P services.",
         "role": "Researcher · Data analyst",
