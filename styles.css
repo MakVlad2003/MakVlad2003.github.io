@@ -253,16 +253,16 @@ summary:before{content:'';height:5px;width:5px;border-right:1px solid currentCol
 @media(max-width:580px){.competition{grid-template-columns:88px minmax(0,1fr);gap:18px}.competition-context .org-logo{width:84px;height:52px}.competition .logo-pbs,.competition .logo-bostongene,.competition .logo-spbu,.competition .logo-lomonosov{height:64px}}
 @media(max-width:360px){.competition{grid-template-columns:1fr;gap:14px}}
 
-/* Phone layouts use the available width instead of squeezing long labels. */
+/* Keep phone context columns beside the copy, with bounded text wrapping. */
 .project-context{min-width:0;max-width:100%}
 :is(.entry-copy,.project-copy,.publication-copy,.competition>div:last-child,.hero-about){overflow-wrap:anywhere}
 .competition dl>div{grid-template-columns:92px minmax(0,1fr)}
 .competition dd{min-width:0;overflow-wrap:anywhere}
 @media(max-width:580px){
- .research-project{grid-template-columns:minmax(0,1fr);gap:20px}
+ .entry,.research-project,.competition{grid-template-columns:88px minmax(0,1fr);gap:18px}
  .project-context{width:100%;justify-self:center;gap:6px}
  .project-context>span{max-width:100%;overflow-wrap:anywhere}
- .project-context .org-logo{width:88px;height:56px;margin-bottom:4px}
+ .project-context .org-logo{width:84px;height:52px;margin-bottom:4px}
  .project-copy{width:100%;max-width:none}
  .competition dl>div{grid-template-columns:minmax(0,1fr);gap:2px}
  .competition dl{gap:12px}
@@ -272,8 +272,4 @@ summary:before{content:'';height:5px;width:5px;border-right:1px solid currentCol
  .header-inner{flex-wrap:wrap;row-gap:10px}
  .header-controls{margin-left:auto;max-width:100%;flex-wrap:wrap;justify-content:flex-end}
  .footer{flex-wrap:wrap;gap:10px}
-}
-@media(max-width:480px){
- .competition{grid-template-columns:minmax(0,1fr);gap:18px}
- .competition-context{width:100%;justify-self:center}
 }
