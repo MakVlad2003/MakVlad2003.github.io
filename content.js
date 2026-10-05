@@ -53,7 +53,7 @@ window.CV_CONTENT = {
     "location": "Москва / Санкт-Петербург",
     "download": "Скачать CV",
     "pdf": "PDF · на русском",
-    "cv": "main_rus.pdf",
+    "cv": "main_rus.pdf?v=28dd6ec97695",
     "sidebar": "Computer Vision<br>3D Scene Understanding<br>Robotics",
     "sidebarDownload": "Полное резюме в PDF",
     "about": [
@@ -458,7 +458,7 @@ window.CV_CONTENT = {
     "location": "Moscow / St. Petersburg",
     "download": "Download CV",
     "pdf": "PDF · in English",
-    "cv": "main_eng.pdf",
+    "cv": "main_eng.pdf?v=310f836c3753",
     "sidebar": "Computer Vision<br>3D Scene Understanding<br>Robotics",
     "sidebarDownload": "Full CV in PDF",
     "about": [

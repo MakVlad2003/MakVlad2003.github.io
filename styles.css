@@ -239,7 +239,7 @@ summary:before{content:'';height:5px;width:5px;border-right:1px solid currentCol
 .olympiad .resource-links{margin-top:10px}
 /* An opaque backing closes the rounded header corners while scrolling. */
 .site-header{background:var(--paper);border:0;border-radius:0;isolation:isolate}
-.site-header::before{left:50%;right:auto;top:-20px;bottom:-10px;width:100vw;height:auto;transform:translateX(-50%);z-index:-1;background:var(--paper)}
+.site-header::before{left:0;right:0;top:-20px;bottom:-10px;height:auto;z-index:-1;background:var(--paper);box-shadow:0 0 0 100vmax var(--paper);clip-path:inset(0 -100vmax)}
 .header-inner{background:var(--panel);border:1px solid var(--line);border-radius:12px}
 .competition{grid-template-columns:170px minmax(0,1fr);align-items:start;gap:32px;padding-block:20px}
 .competition-context{display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center;align-self:start}
@@ -252,3 +252,28 @@ summary:before{content:'';height:5px;width:5px;border-right:1px solid currentCol
 @media(max-width:760px){.competition{grid-template-columns:125px minmax(0,1fr);gap:24px}.competition-context .org-logo{width:112px}}
 @media(max-width:580px){.competition{grid-template-columns:88px minmax(0,1fr);gap:18px}.competition-context .org-logo{width:84px;height:52px}.competition .logo-pbs,.competition .logo-bostongene,.competition .logo-spbu,.competition .logo-lomonosov{height:64px}}
 @media(max-width:360px){.competition{grid-template-columns:1fr;gap:14px}}
+
+/* Phone layouts use the available width instead of squeezing long labels. */
+.project-context{min-width:0;max-width:100%}
+:is(.entry-copy,.project-copy,.publication-copy,.competition>div:last-child,.hero-about){overflow-wrap:anywhere}
+.competition dl>div{grid-template-columns:92px minmax(0,1fr)}
+.competition dd{min-width:0;overflow-wrap:anywhere}
+@media(max-width:580px){
+ .research-project{grid-template-columns:minmax(0,1fr);gap:20px}
+ .project-context{width:100%;justify-self:center;gap:6px}
+ .project-context>span{max-width:100%;overflow-wrap:anywhere}
+ .project-context .org-logo{width:88px;height:56px;margin-bottom:4px}
+ .project-copy{width:100%;max-width:none}
+ .competition dl>div{grid-template-columns:minmax(0,1fr);gap:2px}
+ .competition dl{gap:12px}
+ .competition dt{font-size:11px}
+ .resource-links{max-width:100%;flex-wrap:wrap}
+ .resource-links a{min-width:0;overflow-wrap:anywhere}
+ .header-inner{flex-wrap:wrap;row-gap:10px}
+ .header-controls{margin-left:auto;max-width:100%;flex-wrap:wrap;justify-content:flex-end}
+ .footer{flex-wrap:wrap;gap:10px}
+}
+@media(max-width:480px){
+ .competition{grid-template-columns:minmax(0,1fr);gap:18px}
+ .competition-context{width:100%;justify-self:center}
+}

@@ -3,6 +3,18 @@ from pathlib import Path
 import hashlib
 import re
 root = Path(__file__).resolve().parent.parent
+# PDF versions change with the uploaded document, not with browser cache state.
+content = root / 'content.js'
+text = content.read_text()
+page = root / 'index.html'
+html = page.read_text()
+for pdf in ['main_rus.pdf', 'main_eng.pdf']:
+    version = hashlib.sha256((root / pdf).read_bytes()).hexdigest()[:12]
+    pattern = re.escape(pdf) + r'(?:\?v=[a-f0-9]+)?'
+    text = re.sub(pattern, pdf + '?v=' + version, text)
+    html = re.sub(pattern, pdf + '?v=' + version, html)
+content.write_text(text)
+page.write_text(html)
 for name, assets in [('index.html', ['styles.css', 'content.js', 'app.js']), ('viewer.html', ['viewer.css', 'viewer.js'])]:
     page = root / name
     text = page.read_text()
