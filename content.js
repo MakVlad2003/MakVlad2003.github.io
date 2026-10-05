@@ -40,6 +40,10 @@ window.CV_CONTENT = {
         "Кейс-чемпионаты"
       ],
       [
+        "olympiads",
+        "Олимпиады"
+      ],
+      [
         "contact",
         "Контакты"
       ]
@@ -343,7 +347,57 @@ window.CV_CONTENT = {
     "positionLabel": "Должность",
     "miptEmail": "Почта МФТИ",
     "viewWork": "Посмотреть проекты",
-    "getInTouch": "Связаться"
+    "getInTouch": "Связаться",
+    "olympiadsTitle": "Олимпиады",
+    "diplomaLink": "Диплом",
+    "diplomaCodeLabel": "Номер электронного диплома",
+    "olympiads": [
+      {
+        "year": "2021",
+        "title": "Олимпиада школьников Санкт-Петербургского государственного университета",
+        "url": "https://sch-olymp.spbu.ru/",
+        "subject": "Химия",
+        "meta": "I уровень · 11 класс",
+        "result": "Диплом II степени",
+        "code": "234 6151-56012",
+        "resources": [
+          [
+            "Диплом",
+            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/234615156012/color.pdf"
+          ]
+        ]
+      },
+      {
+        "year": "2021",
+        "title": "Олимпиада школьников «Ломоносов»",
+        "url": "https://olymp.msu.ru/",
+        "subject": "Физика",
+        "meta": "II уровень · 11 класс",
+        "result": "Диплом III степени",
+        "code": "236 5240-42626",
+        "resources": [
+          [
+            "Диплом",
+            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/236524042626/color.pdf"
+          ]
+        ]
+      },
+      {
+        "year": "2021",
+        "title": "Олимпиада школьников «Ломоносов»",
+        "url": "https://olymp.msu.ru/",
+        "subject": "Математика",
+        "meta": "I уровень · 11 класс",
+        "result": "Диплом II степени",
+        "code": "236 5307-99376",
+        "resources": [
+          [
+            "Диплом",
+            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/236530799376/color.pdf"
+          ]
+        ]
+      }
+    ]
   },
   "en": {
     "name": [
@@ -384,6 +438,10 @@ window.CV_CONTENT = {
       [
         "cases",
         "Case competitions"
+      ],
+      [
+        "olympiads",
+        "Olympiads"
       ],
       [
         "contact",
@@ -689,6 +747,56 @@ window.CV_CONTENT = {
     "positionLabel": "Position",
     "miptEmail": "MIPT email",
     "viewWork": "Explore my work",
-    "getInTouch": "Get in touch"
+    "getInTouch": "Get in touch",
+    "olympiadsTitle": "Olympiads",
+    "diplomaLink": "Diploma",
+    "diplomaCodeLabel": "Electronic diploma ID",
+    "olympiads": [
+      {
+        "year": "2021",
+        "title": "St Petersburg University Olympiad for School Students",
+        "url": "https://sch-olymp.spbu.ru/",
+        "subject": "Chemistry",
+        "meta": "Russian Olympiad list: Level I · Grade 11",
+        "result": "Second-degree diploma",
+        "code": "234 6151-56012",
+        "resources": [
+          [
+            "Diploma",
+            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/234615156012/color.pdf"
+          ]
+        ]
+      },
+      {
+        "year": "2021",
+        "title": "Lomonosov Olympiad for School Students",
+        "url": "https://olymp.msu.ru/",
+        "subject": "Physics",
+        "meta": "Russian Olympiad list: Level II · Grade 11",
+        "result": "Third-degree diploma",
+        "code": "236 5240-42626",
+        "resources": [
+          [
+            "Diploma",
+            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/236524042626/color.pdf"
+          ]
+        ]
+      },
+      {
+        "year": "2021",
+        "title": "Lomonosov Olympiad for School Students",
+        "url": "https://olymp.msu.ru/",
+        "subject": "Mathematics",
+        "meta": "Russian Olympiad list: Level I · Grade 11",
+        "result": "Second-degree diploma",
+        "code": "236 5307-99376",
+        "resources": [
+          [
+            "Diploma",
+            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/236530799376/color.pdf"
+          ]
+        ]
+      }
+    ]
   }
 };

@@ -23,7 +23,7 @@
     image:'<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8" cy="8" r="1"/><path d="m3 17 6-6 4 4 4-5 4 7"/>'
   };
   const icon = key => `<svg class="resource-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[key]||icons.link}</svg>`;
-  const resourceIcon = (label,url) => icon(url.includes('github.com')?'github':/slides|talk|[Пп]резентац|[Pp]resentation/.test(label+url)?'slides':/poster|постер|figure|рисунок/.test(label+url)?'image':/arxiv|ssrn|PDF|ВКР|[Pp]aper/.test(label+url)?'file':'link');
+  const resourceIcon = (label,url) => icon(url.includes('github.com')?'github':/slides|talk|[Пп]резентац|[Pp]resentation/.test(label+url)?'slides':/poster|постер|figure|рисунок/.test(label+url)?'image':/arxiv|ssrn|PDF|ВКР|[Pp]aper|[Dd]iploma|[Дд]иплом/.test(label+url)?'file':'link');
   const paperVisual = index => {
     const p=publications[index];
     return p.image?`<figure class="paper-visual"><a href="${p.image}" ${external} aria-label="${lang==='ru'?'Открыть рисунок метода':'Open method figure'}"> <img src="${p.image}" alt="${p.title} — ${lang==='ru'?'схема метода из статьи':'method overview from the paper'}" loading="lazy"></a></figure>`:'';
@@ -98,12 +98,14 @@
     const papers=publications.map((p,i)=>`<article class="publication">${paperVisual(i)}<div class="publication-copy"><div class="publication-meta">${p.source}</div><h3><a class="entry-title-link" href="${p.url}" ${external}>${p.title}</a></h3><p class="authors">${p.authors}</p>${resources([[c.paperLink,p.url],...(p.pdf?[[c.paperPdf,p.pdf]]:[])])}</div></article>`).join('');
     const competitionLabels=lang==='ru'?['Задача','Моя роль','Результат']:['Task','My role','Result'];
     const competitions=items=>items.map(i=>`<article class="competition"><time>${i.year}</time><div><h3>${i.title}</h3><p class="competition-kind">${i.kind}</p><dl>${[i.text,i.role,i.result].map((v,j)=>`<div><dt>${competitionLabels[j]}</dt><dd>${v}</dd></div>`).join('')}</dl>${resources(i.resources)}</div></article>`).join('');
+    const olympiads=c.olympiads.map(item=>`<article class="competition olympiad"><time datetime="${item.year}">${item.year}</time><div><h3><a class="entry-title-link" href="${item.url}" ${external}>${item.title}</a> · ${item.subject}</h3><p class="competition-kind">${item.meta}</p><p class="olympiad-result">${item.result}</p>${resources(item.resources)}<p class="olympiad-code">${c.diplomaCodeLabel}: <span>${item.code}</span></p></div></article>`).join('');
     main.innerHTML=intro+section('experience',c.experienceTitle,entries(c.experience,'experience'))
       +section('projects',c.projectsTitle,projects,'projects-section')
       +section('publications',c.publicationsTitle,papers)
       +section('talks',c.talksTitle,entries(c.talks,'talk'))+section('education',c.educationTitle,entries(c.education,'education'))
       +section('hackathons',lang==='ru'?'Хакатоны':'Hackathons',competitions(c.competitions.slice(0,3)))
       +section('cases',lang==='ru'?'Кейс-чемпионаты':'Case competitions',competitions(c.competitions.slice(3)))
+      +section('olympiads',c.olympiadsTitle,olympiads)
       +section('contact',c.contactTitle,socialLinks(true),'contact-section')
       +`<footer class="footer"><span>© 2026 ${c.name.join(' ')}</span><a href="#about">${c.backTop}${arrow}</a></footer>`;
     updateTheme();activate(activeSection);

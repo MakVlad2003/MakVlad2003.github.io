@@ -233,3 +233,9 @@ summary:before{content:'';height:5px;width:5px;border-right:1px solid currentCol
 }
 @media(max-width:760px){.site-header{width:calc(100% - 48px)}}
 @media(max-width:580px){.site-header{width:calc(100% - 40px)}}
+.olympiad{padding-block:20px;align-items:center}
+.olympiad .competition-kind{margin-bottom:8px}
+.olympiad .olympiad-result{margin:0;color:var(--accent);font-size:14px;font-weight:600}
+.olympiad .resource-links{margin-top:10px}
+.olympiad .olympiad-code{margin:10px 0 0;font-size:12px;line-height:1.5;color:var(--muted)}
+.olympiad-code span{font-variant-numeric:tabular-nums;white-space:nowrap}
