@@ -233,9 +233,21 @@ summary:before{content:'';height:5px;width:5px;border-right:1px solid currentCol
 }
 @media(max-width:760px){.site-header{width:calc(100% - 48px)}}
 @media(max-width:580px){.site-header{width:calc(100% - 40px)}}
-.olympiad{padding-block:20px;align-items:center}
+.olympiad{padding-block:20px;align-items:start}
 .olympiad .competition-kind{margin-bottom:8px}
 .olympiad .olympiad-result{margin:0;color:var(--accent);font-size:14px;font-weight:600}
 .olympiad .resource-links{margin-top:10px}
-.olympiad .olympiad-code{margin:10px 0 0;font-size:12px;line-height:1.5;color:var(--muted)}
-.olympiad-code span{font-variant-numeric:tabular-nums;white-space:nowrap}
+/* An opaque backing closes the rounded header corners while scrolling. */
+.site-header{background:var(--paper);border:0;border-radius:0}
+.header-inner{background:var(--panel);border:1px solid var(--line);border-radius:12px}
+.competition{grid-template-columns:170px minmax(0,1fr);align-items:start;gap:32px;padding-block:20px}
+.competition-context{display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center;align-self:start}
+.competition-context .org-logo{width:144px;height:64px}
+.competition-context time{line-height:1.5}
+.competition>div:last-child{min-width:0;max-width:68ch}
+.competition .logo-pbs,.competition .logo-bostongene,.competition .logo-spbu,.competition .logo-lomonosov{height:76px}
+[data-theme=dark] .logo-sibur img,[data-theme=dark] .logo-gazprom-neft img{filter:brightness(1.5)}
+[data-theme=dark] .logo-spbu img{filter:brightness(0) invert(1)}
+@media(max-width:760px){.competition{grid-template-columns:125px minmax(0,1fr);gap:24px}.competition-context .org-logo{width:112px}}
+@media(max-width:580px){.competition{grid-template-columns:88px minmax(0,1fr);gap:18px}.competition-context .org-logo{width:84px;height:52px}.competition .logo-pbs,.competition .logo-bostongene,.competition .logo-spbu,.competition .logo-lomonosov{height:64px}}
+@media(max-width:360px){.competition{grid-template-columns:1fr;gap:14px}}

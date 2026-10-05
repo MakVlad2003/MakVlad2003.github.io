@@ -228,7 +228,8 @@ window.CV_CONTENT = {
           ]
         ],
         "role": "Исследование и ML-инженерия",
-        "kind": "Хакатон"
+        "kind": "Хакатон",
+        "logo": "sibur.png"
       },
       {
         "year": "2024",
@@ -242,7 +243,8 @@ window.CV_CONTENT = {
           ]
         ],
         "role": "Исследование и ML-инженерия",
-        "kind": "Хакатон"
+        "kind": "Хакатон",
+        "logo": "bostongene.png"
       },
       {
         "year": "2023",
@@ -250,7 +252,8 @@ window.CV_CONTENT = {
         "text": "Веб-сервис для автоматического лотирования закупочных заявок.",
         "result": "Команда-участник",
         "role": "Капитан команды · ML-инженер",
-        "kind": "Хакатон"
+        "kind": "Хакатон",
+        "logo": "gazprom-neft.png"
       },
       {
         "year": "2023",
@@ -264,7 +267,8 @@ window.CV_CONTENT = {
             "Материалы проекта",
             "https://disk.yandex.ru/d/9rKwkXUHtRdFzQ"
           ]
-        ]
+        ],
+        "logo": "pbs.png"
       },
       {
         "year": "2022",
@@ -278,7 +282,8 @@ window.CV_CONTENT = {
             "Презентация",
             "https://www.canva.com/design/DAFS5B2qJiY/Wv7Cf3fdJed_PfPsbPaCYA/edit"
           ]
-        ]
+        ],
+        "logo": "pbs.png"
       },
       {
         "year": "2022",
@@ -292,7 +297,8 @@ window.CV_CONTENT = {
             "Код",
             "https://github.com/blockchancase/Blochain-code/blob/main/main_body_blockchain"
           ]
-        ]
+        ],
+        "logo": "pbs.png"
       }
     ],
     "otherCompetitions": "Ещё кейс-чемпионаты",
@@ -350,22 +356,21 @@ window.CV_CONTENT = {
     "getInTouch": "Связаться",
     "olympiadsTitle": "Олимпиады",
     "diplomaLink": "Диплом",
-    "diplomaCodeLabel": "Номер электронного диплома",
     "olympiads": [
       {
         "year": "2021",
-        "title": "Олимпиада школьников Санкт-Петербургского государственного университета",
-        "url": "https://sch-olymp.spbu.ru/",
-        "subject": "Химия",
+        "title": "Олимпиада школьников «Ломоносов»",
+        "url": "https://olymp.msu.ru/",
+        "subject": "Математика",
         "meta": "I уровень · 11 класс",
         "result": "Диплом II степени",
-        "code": "234 6151-56012",
         "resources": [
           [
             "Диплом",
-            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/234615156012/color.pdf"
+            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/236530799376/color.pdf"
           ]
-        ]
+        ],
+        "logo": "lomonosov.png"
       },
       {
         "year": "2021",
@@ -374,28 +379,28 @@ window.CV_CONTENT = {
         "subject": "Физика",
         "meta": "II уровень · 11 класс",
         "result": "Диплом III степени",
-        "code": "236 5240-42626",
         "resources": [
           [
             "Диплом",
             "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/236524042626/color.pdf"
           ]
-        ]
+        ],
+        "logo": "lomonosov.png"
       },
       {
         "year": "2021",
-        "title": "Олимпиада школьников «Ломоносов»",
-        "url": "https://olymp.msu.ru/",
-        "subject": "Математика",
+        "title": "Олимпиада школьников Санкт-Петербургского государственного университета",
+        "url": "https://sch-olymp.spbu.ru/",
+        "subject": "Химия",
         "meta": "I уровень · 11 класс",
         "result": "Диплом II степени",
-        "code": "236 5307-99376",
         "resources": [
           [
             "Диплом",
-            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/236530799376/color.pdf"
+            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/234615156012/color.pdf"
           ]
-        ]
+        ],
+        "logo": "spbu.png"
       }
     ]
   },
@@ -628,7 +633,8 @@ window.CV_CONTENT = {
           ]
         ],
         "role": "Researcher · ML engineer",
-        "kind": "Hackathon"
+        "kind": "Hackathon",
+        "logo": "sibur.png"
       },
       {
         "year": "2024",
@@ -642,7 +648,8 @@ window.CV_CONTENT = {
           ]
         ],
         "role": "Researcher · ML engineer",
-        "kind": "Hackathon"
+        "kind": "Hackathon",
+        "logo": "bostongene.png"
       },
       {
         "year": "2023",
@@ -650,7 +657,8 @@ window.CV_CONTENT = {
         "text": "A web service for automatically grouping procurement requests into lots.",
         "result": "Participating team",
         "role": "Team captain · ML engineer",
-        "kind": "Hackathon"
+        "kind": "Hackathon",
+        "logo": "gazprom-neft.png"
       },
       {
         "year": "2023",
@@ -664,7 +672,8 @@ window.CV_CONTENT = {
             "Project materials",
             "https://disk.yandex.ru/d/9rKwkXUHtRdFzQ"
           ]
-        ]
+        ],
+        "logo": "pbs.png"
       },
       {
         "year": "2022",
@@ -678,7 +687,8 @@ window.CV_CONTENT = {
             "Presentation",
             "https://www.canva.com/design/DAFS5B2qJiY/Wv7Cf3fdJed_PfPsbPaCYA/edit"
           ]
-        ]
+        ],
+        "logo": "pbs.png"
       },
       {
         "year": "2022",
@@ -692,7 +702,8 @@ window.CV_CONTENT = {
             "Code",
             "https://github.com/blockchancase/Blochain-code/blob/main/main_body_blockchain"
           ]
-        ]
+        ],
+        "logo": "pbs.png"
       }
     ],
     "otherCompetitions": "More case competitions",
@@ -750,22 +761,21 @@ window.CV_CONTENT = {
     "getInTouch": "Get in touch",
     "olympiadsTitle": "Olympiads",
     "diplomaLink": "Diploma",
-    "diplomaCodeLabel": "Electronic diploma ID",
     "olympiads": [
       {
         "year": "2021",
-        "title": "St Petersburg University Olympiad for School Students",
-        "url": "https://sch-olymp.spbu.ru/",
-        "subject": "Chemistry",
+        "title": "Lomonosov Olympiad for School Students",
+        "url": "https://olymp.msu.ru/",
+        "subject": "Mathematics",
         "meta": "Russian Olympiad list: Level I · Grade 11",
         "result": "Second-degree diploma",
-        "code": "234 6151-56012",
         "resources": [
           [
             "Diploma",
-            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/234615156012/color.pdf"
+            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/236530799376/color.pdf"
           ]
-        ]
+        ],
+        "logo": "lomonosov.png"
       },
       {
         "year": "2021",
@@ -774,28 +784,28 @@ window.CV_CONTENT = {
         "subject": "Physics",
         "meta": "Russian Olympiad list: Level II · Grade 11",
         "result": "Third-degree diploma",
-        "code": "236 5240-42626",
         "resources": [
           [
             "Diploma",
             "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/236524042626/color.pdf"
           ]
-        ]
+        ],
+        "logo": "lomonosov.png"
       },
       {
         "year": "2021",
-        "title": "Lomonosov Olympiad for School Students",
-        "url": "https://olymp.msu.ru/",
-        "subject": "Mathematics",
+        "title": "St Petersburg University Olympiad for School Students",
+        "url": "https://sch-olymp.spbu.ru/",
+        "subject": "Chemistry",
         "meta": "Russian Olympiad list: Level I · Grade 11",
         "result": "Second-degree diploma",
-        "code": "236 5307-99376",
         "resources": [
           [
             "Diploma",
-            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/236530799376/color.pdf"
+            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/234615156012/color.pdf"
           ]
-        ]
+        ],
+        "logo": "spbu.png"
       }
     ]
   }
