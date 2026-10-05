@@ -261,7 +261,8 @@ summary:before{content:'';height:5px;width:5px;border-right:1px solid currentCol
 @media(max-width:580px){
  .entry,.research-project,.competition{grid-template-columns:88px minmax(0,1fr);gap:18px}
  .project-context{width:100%;justify-self:center;gap:6px}
- .project-context>span{max-width:100%;overflow-wrap:anywhere}
+ .research-project{grid-template-columns:112px minmax(0,1fr);gap:16px}
+ .project-context>span{max-width:100%;overflow-wrap:normal;word-break:normal;hyphens:none}
  .project-context .org-logo{width:84px;height:52px;margin-bottom:4px}
  .project-copy{width:100%;max-width:none}
  .competition dl>div{grid-template-columns:minmax(0,1fr);gap:2px}
