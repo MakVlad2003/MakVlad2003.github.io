@@ -1,0 +1,152 @@
+{
+  "source": "figure/МФТИ_Конференция.pptx",
+  "width": 1920,
+  "height": 1080,
+  "kind": "slides",
+  "pages": [
+    {
+      "image": "page-01.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-02.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-03.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-04.jpg",
+      "videos": [
+        {
+          "src": "video-4-0.mp4",
+          "poster": "video-4-0.jpg",
+          "x": 60.533590332458445,
+          "y": 28.909419655876352,
+          "width": 28.432699037620296,
+          "height": 34.58480606590843
+        }
+      ]
+    },
+    {
+      "image": "page-05.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-06.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-07.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-08.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-09.jpg",
+      "videos": [
+        {
+          "src": "video-9-0.mp4",
+          "poster": "video-9-0.jpg",
+          "x": 1.6238845144356955,
+          "y": 31.45312530378147,
+          "width": 29.064545056867892,
+          "height": 38.0103431515505
+        },
+        {
+          "src": "video-9-1.mp4",
+          "poster": "video-9-1.jpg",
+          "x": 35.46772747156605,
+          "y": 31.45312530378147,
+          "width": 29.064545056867892,
+          "height": 38.0103431515505
+        },
+        {
+          "src": "video-9-2.mp4",
+          "poster": "video-9-2.jpg",
+          "x": 69.31156496062992,
+          "y": 31.45312530378147,
+          "width": 29.064545056867892,
+          "height": 38.0103431515505
+        }
+      ]
+    },
+    {
+      "image": "page-10.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-11.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-12.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-13.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-14.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-15.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-16.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-17.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-18.jpg",
+      "videos": [
+        {
+          "src": "video-18-0.mp4",
+          "poster": "video-18-0.jpg",
+          "x": 1.6238845144356955,
+          "y": 17.67106056187421,
+          "width": 23.27066382327209,
+          "height": 41.370069019150385
+        },
+        {
+          "src": "video-18-1.mp4",
+          "poster": "video-18-1.jpg",
+          "x": 24.89455380577428,
+          "y": 17.67106056187421,
+          "width": 23.27066382327209,
+          "height": 41.370069019150385
+        }
+      ]
+    },
+    {
+      "image": "page-19.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-20.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-21.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-22.jpg",
+      "videos": []
+    },
+    {
+      "image": "page-23.jpg",
+      "videos": []
+    }
+  ],
+  "renderSource": "figure/МФТИ_Конференция.pdf"
+}

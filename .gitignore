@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Original working documents stay on this Mac. Browser materials are in materials/.
+/figure/
+/materials/rendered/
+/docs/archive/
+/docs/CLEANUP.md
+/.impeccable/
+/DESIGN.md
+/PRODUCT.md
+
+# Local exports and temporary files.
+*.log
+*.tmp

@@ -1,0 +1,22 @@
+{
+  "thesis-slides": {
+    "source": "figure/ВКР_Макаров_final.pptx",
+    "pages": 33,
+    "videos": 7
+  },
+  "mipt-talk": {
+    "source": "figure/МФТИ_Конференция.pptx",
+    "pages": 23,
+    "videos": 6
+  },
+  "thesis-text": {
+    "source": "figure/Макаров_Диплом_final.docx",
+    "pages": 95,
+    "videos": 0
+  },
+  "neurocampus-poster": {
+    "source": "figure/Макаров_постер_2025.pdf",
+    "pages": 1,
+    "videos": 0
+  }
+}
