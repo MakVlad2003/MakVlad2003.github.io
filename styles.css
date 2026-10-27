@@ -166,7 +166,9 @@ summary:before{content:'';height:5px;width:5px;border-right:1px solid currentCol
 .org-heading{display:block;margin-bottom:18px}.org-heading>div{min-width:0}
 .org-logo{background:transparent;border:0;border-radius:0;padding:0;margin:0;display:flex;align-items:center;justify-content:center}
 .org-logo img{max-width:100%;max-height:100%;object-fit:contain;margin:0}
-.project-context .logo-huawei{background:#fff;border-radius:8px;padding:8px}
+.logo-huawei-supplied{position:relative}
+/* Keep the supplied red flower; use a white wordmark on dark backgrounds. */
+[data-theme=dark] .logo-huawei-supplied::after{content:'';position:absolute;inset:0;background:#fff;mask:url('assets/logos/huawei-supplied.png') center/contain no-repeat;clip-path:inset(82% 0 0 0);pointer-events:none}
 .org-logo .logo-dark{display:none}
 [data-theme=dark] .org-logo .logo-light{display:none}
 [data-theme=dark] .org-logo .logo-dark{display:block}

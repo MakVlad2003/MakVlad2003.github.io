@@ -49,7 +49,7 @@ window.CV_CONTENT = {
     "location": "Москва / Санкт-Петербург",
     "download": "Скачать CV",
     "pdf": "PDF · на русском",
-    "cv": "main_rus.pdf?v=7b61bf95e169",
+    "cv": "main_rus.pdf?v=d70cef15191e",
     "sidebar": "Computer Vision<br>3D Scene Understanding<br>Robotics",
     "sidebarDownload": "Полное резюме в PDF",
     "about": [
@@ -105,10 +105,10 @@ window.CV_CONTENT = {
           "Июль 2026 —",
           "настоящее время"
         ],
-        "title": "Визуально-пространственные ответы на вопросы по видео с помощью графов 3D-сцен",
+        "title": "Генерация размеченных датасетов для визуально-пространственного VQA",
         "meta": "Huawei<br>Исследовательский проект",
         "text": "Улучшение ответов на визуально-пространственные вопросы по видео с использованием графов 3D-сцен.",
-        "logo": "huawei.png"
+        "logo": "huawei-supplied.png"
       },
       {
         "date": [
@@ -412,7 +412,7 @@ window.CV_CONTENT = {
     "location": "Moscow / St. Petersburg",
     "download": "Download CV",
     "pdf": "PDF · in English",
-    "cv": "main_eng.pdf?v=2b9ba36cbe70",
+    "cv": "main_eng.pdf?v=ce49045b28ad",
     "sidebar": "Computer Vision<br>3D Scene Understanding<br>Robotics",
     "sidebarDownload": "Full CV in PDF",
     "about": [
@@ -468,10 +468,10 @@ window.CV_CONTENT = {
           "July 2026 —",
           "present"
         ],
-        "title": "Improving video-based visual-spatial question-answering using 3D scene graphs",
+        "title": "Annotated dataset generation for visual-spatial VQA",
         "meta": "Huawei<br>Research project",
-        "text": "Research on improving visual-spatial question answering about videos using 3D scene graphs.",
-        "logo": "huawei.png"
+        "text": "Improving video-based visual-spatial question-answering using 3D scene graphs.",
+        "logo": "huawei-supplied.png"
       },
       {
         "date": [
