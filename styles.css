@@ -166,6 +166,7 @@ summary:before{content:'';height:5px;width:5px;border-right:1px solid currentCol
 .org-heading{display:block;margin-bottom:18px}.org-heading>div{min-width:0}
 .org-logo{background:transparent;border:0;border-radius:0;padding:0;margin:0;display:flex;align-items:center;justify-content:center}
 .org-logo img{max-width:100%;max-height:100%;object-fit:contain;margin:0}
+.project-context .logo-huawei{background:#fff;border-radius:8px;padding:8px}
 .org-logo .logo-dark{display:none}
 [data-theme=dark] .org-logo .logo-light{display:none}
 [data-theme=dark] .org-logo .logo-dark{display:block}
@@ -233,10 +234,6 @@ summary:before{content:'';height:5px;width:5px;border-right:1px solid currentCol
 }
 @media(max-width:760px){.site-header{width:calc(100% - 48px)}}
 @media(max-width:580px){.site-header{width:calc(100% - 40px)}}
-.olympiad{padding-block:20px;align-items:start}
-.olympiad .competition-kind{margin-bottom:8px}
-.olympiad .olympiad-result{margin:0;color:var(--accent);font-size:14px;font-weight:600}
-.olympiad .resource-links{margin-top:10px}
 /* An opaque backing closes the rounded header corners while scrolling. */
 .site-header{background:var(--paper);border:0;border-radius:0;isolation:isolate}
 .site-header::before{left:0;right:0;top:-20px;bottom:-10px;height:auto;z-index:-1;background:var(--paper);box-shadow:0 0 0 100vmax var(--paper);clip-path:inset(0 -100vmax)}

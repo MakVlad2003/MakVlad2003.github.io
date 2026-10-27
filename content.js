@@ -40,10 +40,6 @@ window.CV_CONTENT = {
         "Кейс-чемпионаты"
       ],
       [
-        "olympiads",
-        "Олимпиады"
-      ],
-      [
         "contact",
         "Контакты"
       ]
@@ -53,7 +49,7 @@ window.CV_CONTENT = {
     "location": "Москва / Санкт-Петербург",
     "download": "Скачать CV",
     "pdf": "PDF · на русском",
-    "cv": "main_rus.pdf?v=28dd6ec97695",
+    "cv": "main_rus.pdf?v=7b61bf95e169",
     "sidebar": "Computer Vision<br>3D Scene Understanding<br>Robotics",
     "sidebarDownload": "Полное резюме в PDF",
     "about": [
@@ -104,6 +100,16 @@ window.CV_CONTENT = {
     ],
     "projectsTitle": "Проекты",
     "projects": [
+      {
+        "date": [
+          "Июль 2026 —",
+          "настоящее время"
+        ],
+        "title": "Визуально-пространственные ответы на вопросы по видео с помощью графов 3D-сцен",
+        "meta": "Huawei<br>Исследовательский проект",
+        "text": "Улучшение ответов на визуально-пространственные вопросы по видео с использованием графов 3D-сцен.",
+        "logo": "huawei.png"
+      },
       {
         "date": [
           "Июнь —",
@@ -354,55 +360,7 @@ window.CV_CONTENT = {
     "miptEmail": "Почта МФТИ",
     "viewWork": "Посмотреть проекты",
     "getInTouch": "Связаться",
-    "olympiadsTitle": "Олимпиады",
-    "diplomaLink": "Диплом",
-    "olympiads": [
-      {
-        "year": "2021",
-        "title": "Олимпиада школьников «Ломоносов»",
-        "url": "https://olymp.msu.ru/",
-        "subject": "Математика",
-        "meta": "I уровень · 11 класс",
-        "result": "Диплом II степени",
-        "resources": [
-          [
-            "Диплом",
-            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/236530799376/color.pdf"
-          ]
-        ],
-        "logo": "lomonosov.png"
-      },
-      {
-        "year": "2021",
-        "title": "Олимпиада школьников «Ломоносов»",
-        "url": "https://olymp.msu.ru/",
-        "subject": "Физика",
-        "meta": "II уровень · 11 класс",
-        "result": "Диплом III степени",
-        "resources": [
-          [
-            "Диплом",
-            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/236524042626/color.pdf"
-          ]
-        ],
-        "logo": "lomonosov.png"
-      },
-      {
-        "year": "2021",
-        "title": "Олимпиада школьников Санкт-Петербургского государственного университета",
-        "url": "https://sch-olymp.spbu.ru/",
-        "subject": "Химия",
-        "meta": "I уровень · 11 класс",
-        "result": "Диплом II степени",
-        "resources": [
-          [
-            "Диплом",
-            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/234615156012/color.pdf"
-          ]
-        ],
-        "logo": "spbu.png"
-      }
-    ]
+    "diplomaLink": "Диплом"
   },
   "en": {
     "name": [
@@ -445,10 +403,6 @@ window.CV_CONTENT = {
         "Case competitions"
       ],
       [
-        "olympiads",
-        "Olympiads"
-      ],
-      [
         "contact",
         "Contact"
       ]
@@ -458,7 +412,7 @@ window.CV_CONTENT = {
     "location": "Moscow / St. Petersburg",
     "download": "Download CV",
     "pdf": "PDF · in English",
-    "cv": "main_eng.pdf?v=310f836c3753",
+    "cv": "main_eng.pdf?v=2b9ba36cbe70",
     "sidebar": "Computer Vision<br>3D Scene Understanding<br>Robotics",
     "sidebarDownload": "Full CV in PDF",
     "about": [
@@ -509,6 +463,16 @@ window.CV_CONTENT = {
     ],
     "projectsTitle": "Projects",
     "projects": [
+      {
+        "date": [
+          "July 2026 —",
+          "present"
+        ],
+        "title": "Improving video-based visual-spatial question-answering using 3D scene graphs",
+        "meta": "Huawei<br>Research project",
+        "text": "Research on improving visual-spatial question answering about videos using 3D scene graphs.",
+        "logo": "huawei.png"
+      },
       {
         "date": [
           "June —",
@@ -759,54 +723,6 @@ window.CV_CONTENT = {
     "miptEmail": "MIPT email",
     "viewWork": "Explore my work",
     "getInTouch": "Get in touch",
-    "olympiadsTitle": "Olympiads",
-    "diplomaLink": "Diploma",
-    "olympiads": [
-      {
-        "year": "2021",
-        "title": "Lomonosov Olympiad for School Students",
-        "url": "https://olymp.msu.ru/",
-        "subject": "Mathematics",
-        "meta": "Russian Olympiad list: Level I · Grade 11",
-        "result": "Second-degree diploma",
-        "resources": [
-          [
-            "Diploma",
-            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/236530799376/color.pdf"
-          ]
-        ],
-        "logo": "lomonosov.png"
-      },
-      {
-        "year": "2021",
-        "title": "Lomonosov Olympiad for School Students",
-        "url": "https://olymp.msu.ru/",
-        "subject": "Physics",
-        "meta": "Russian Olympiad list: Level II · Grade 11",
-        "result": "Third-degree diploma",
-        "resources": [
-          [
-            "Diploma",
-            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/236524042626/color.pdf"
-          ]
-        ],
-        "logo": "lomonosov.png"
-      },
-      {
-        "year": "2021",
-        "title": "St Petersburg University Olympiad for School Students",
-        "url": "https://sch-olymp.spbu.ru/",
-        "subject": "Chemistry",
-        "meta": "Russian Olympiad list: Level I · Grade 11",
-        "result": "Second-degree diploma",
-        "resources": [
-          [
-            "Diploma",
-            "https://diploma.olimpiada.ru/files/rsosh-diplomas-static/compiled-storage-2021/by-code/234615156012/color.pdf"
-          ]
-        ],
-        "logo": "spbu.png"
-      }
-    ]
+    "diplomaLink": "Diploma"
   }
 };

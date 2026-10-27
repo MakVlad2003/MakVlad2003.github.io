@@ -94,18 +94,16 @@
     navigation.setAttribute('aria-label',c.navLabel);navigation.innerHTML=c.nav.map(([id,label])=>`<a href="#${id}">${label}</a>`).join('');
     document.getElementById('sidebar-note').innerHTML=c.sidebar;
     const intro=`<section class="intro" id="about" aria-labelledby="name"><div class="intro-copy"><h1 id="name">${c.name.join(' ')}</h1><div class="hero-about about-copy" id="bio">${c.about.map(p=>`<p>${p}</p>`).join('')}</div><div class="intro-actions"><a class="primary-link" href="#projects">${c.viewWork}${arrow}</a><a class="text-link" href="#contact">${c.getInTouch}${arrow}</a></div></div><figure class="portrait"><img src="assets/portrait.png" width="851" height="994" alt="${c.name.join(' ')}" fetchpriority="high"></figure><div class="intro-social">${socialLinks()}</div></section>`;
-    const projects=c.projects.map(p=>`<article class="research-project"><div class="project-context">${logo(p.logo,'Sber Robotics')}<span>${p.meta}</span><span>${p.date.join(' ')}</span></div><div class="project-copy"><h3>${p.title}</h3><p>${p.text}</p></div></article>`).join('');
+    const projects=c.projects.map(p=>`<article class="research-project"><div class="project-context">${logo(p.logo,p.meta.split('<br>')[0])}<span>${p.meta}</span><span>${p.date.join(' ')}</span></div><div class="project-copy"><h3>${p.title}</h3><p>${p.text}</p></div></article>`).join('');
     const papers=publications.map((p,i)=>`<article class="publication">${paperVisual(i)}<div class="publication-copy"><div class="publication-meta">${p.source}</div><h3><a class="entry-title-link" href="${p.url}" ${external}>${p.title}</a></h3><p class="authors">${p.authors}</p>${resources([[c.paperLink,p.url],...(p.pdf?[[c.paperPdf,p.pdf]]:[])])}</div></article>`).join('');
     const competitionLabels=lang==='ru'?['Задача','Моя роль','Результат']:['Task','My role','Result'];
     const competitions=items=>items.map(i=>`<article class="competition"><div class="competition-context"><time>${i.year}</time>${logo(i.logo,i.title)}</div><div><h3>${i.title}</h3><p class="competition-kind">${i.kind}</p><dl>${[i.text,i.role,i.result].map((v,j)=>`<div><dt>${competitionLabels[j]}</dt><dd>${v}</dd></div>`).join('')}</dl>${resources(i.resources)}</div></article>`).join('');
-    const olympiads=c.olympiads.map(item=>`<article class="competition olympiad"><div class="competition-context"><time datetime="${item.year}">${item.year}</time>${logo(item.logo,item.title)}</div><div><h3>${item.title} — ${item.subject}</h3><p class="competition-kind">${item.meta}</p><p class="olympiad-result">${item.result}</p>${resources(item.resources)}</div></article>`).join('');
     main.innerHTML=intro+section('experience',c.experienceTitle,entries(c.experience,'experience'))
       +section('projects',c.projectsTitle,projects,'projects-section')
       +section('publications',c.publicationsTitle,papers)
       +section('talks',c.talksTitle,entries(c.talks,'talk'))+section('education',c.educationTitle,entries(c.education,'education'))
       +section('hackathons',lang==='ru'?'Хакатоны':'Hackathons',competitions(c.competitions.slice(0,3)))
       +section('cases',lang==='ru'?'Кейс-чемпионаты':'Case competitions',competitions(c.competitions.slice(3)))
-      +section('olympiads',c.olympiadsTitle,olympiads)
       +section('contact',c.contactTitle,socialLinks(true),'contact-section')
       +`<footer class="footer"><span>© 2026 ${c.name.join(' ')}</span><a href="#about">${c.backTop}${arrow}</a></footer>`;
     updateTheme();activate(activeSection);
