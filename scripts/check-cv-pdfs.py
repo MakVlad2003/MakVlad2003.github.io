@@ -11,13 +11,13 @@ EXPECTED = {
     "main_eng.pdf": (
         "Huawei",
         "July 2026 — Present",
-        "Improving video-based visual-spatial question-answering using 3D scene graphs.",
+        "Improving video-based visual-spatial question-answering using 3D scene graphs",
     ),
     "main_rus.pdf": (
         "Huawei",
         "Июль 2026 — настоящее время",
         "Улучшение ответов на визуально-пространственные вопросы по видео "
-        "с использованием графов 3D-сцен.",
+        "с использованием графов 3D-сцен",
     ),
 }
 
@@ -38,6 +38,8 @@ def main():
             for phrase in expected:
                 if phrase not in text:
                     raise ValueError(f"{filename}: missing or corrupted text: {phrase}")
+            if expected[-1] + "." in text:
+                raise ValueError(f"{filename}: Huawei description has a trailing period")
             if "olymp" in text.lower() or "олимп" in text.lower():
                 raise ValueError(f"{filename}: Olympiads section is still present")
             run_poppler([
