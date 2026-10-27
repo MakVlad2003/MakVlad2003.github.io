@@ -105,7 +105,7 @@ window.CV_CONTENT = {
           "Июль 2026 —",
           "настоящее время"
         ],
-        "title": "Генерация размеченных датасетов для визуально-пространственного VQA",
+        "title": "Генерация датасетов для VQA",
         "meta": "Huawei<br>Исследовательский проект",
         "text": "Улучшение ответов на визуально-пространственные вопросы по видео с использованием графов 3D-сцен.",
         "logo": "huawei-supplied.png"
@@ -468,7 +468,7 @@ window.CV_CONTENT = {
           "July 2026 —",
           "present"
         ],
-        "title": "Annotated dataset generation for visual-spatial VQA",
+        "title": "Dataset generation for VQA",
         "meta": "Huawei<br>Research project",
         "text": "Improving video-based visual-spatial question-answering using 3D scene graphs.",
         "logo": "huawei-supplied.png"
